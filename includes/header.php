@@ -7,7 +7,7 @@
 
     <title><?= $titol ?? "Viatges" ?></title>
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href= <?php echo $ruta ?? "assets/css/style.css" ?>         >
 
 </head>
 

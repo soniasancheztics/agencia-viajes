@@ -2,11 +2,11 @@
 
     <ul>
 
-        <li><a href="index.php">Inici</a></li>
+        <li><a href= <?= $vista1 ??  "index.php"  ?>  >Inici</a></li>
 
-        <li><a href="destinacions.php">Destinacions</a></li>
+        <li><a href= <?= $vista2 ?? "views/destinacions.php"  ?>      >Destinacions</a></li>
 
-        <li><a href="contacte.php">Contacte</a></li>
+        <li><a href= <?= $vista3 ?? "views/contacte.php"  ?>   >Contacte</a></li>
 
     </ul>
 
